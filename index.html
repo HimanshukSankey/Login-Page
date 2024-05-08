@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Login Page/style.css">
+</head>
+
+<body id="body">
+<div id="mainContainer">
+    <div id="loginImage" class="innerContainer">
+        <img  src="Login.png" alt="This is a Login Image" >
+    </div>
+    <div id="form" class="innerContainer">
+        <div class="formContainer">
+            <div id="wcContainer" class="childContainer">
+                <h4>Welcome back</h4>
+            </div>
+            <div id="titleContainer" class="childContainer">
+                <h2>Login to your account</h2>
+            </div>
+            <form id="mainForm" class="childContainer">
+                <div id="emailContainer">
+                    <label for="email">Email</label>
+                    <input id="emailId" type="email" required placeholder="Please Enter Email">
+                    <div id="inValidEmailMessage" class="PopUp-Message"></div>
+                </div>
+
+
+                <div id="passContainer">
+                    <label for="password">Password</label>
+                    <input id="passW" type="password" required placeholder="Please Enter Password">
+                    <div id="inValidPasswordMessage" class="PopUp-Message"></div>
+                </div>
+
+
+                <div class="childContainer">
+                    <div class="innerChildContainer">
+                        <input type="radio"><span>Remember me</span>
+                    </div>
+                    <span><a href="#">Forgot password?</a></span>
+                </div>
+                <button id="login" onclick="submitTask(event)" class="btnContainer" type="submit">Login now</button>
+            </form>
+            <div class="childContainer"> <button id="signin" class="btnContainer" ><img src="icons8-google.svg" alt=""> Or sign-in with Google</button></div>
+    
+            <span id="DHA">Don't have Account? <a href="#">Join free today</a></span>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/Login Page/script.js"></script>
+</html>
