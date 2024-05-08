@@ -72,11 +72,12 @@
 }
 .PopUp-Message{
     color: red;
+    font-size: 0.7em;
 }
 
 #DHA {
     position: absolute;
-    bottom: 20px;
+    bottom: 60px;
     font-size: 12px;
     width: 100%;
     left: 50%;
